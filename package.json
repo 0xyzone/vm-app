@@ -1,0 +1,24 @@
+{
+  "name": "vm-app2",
+  "version": "1.0.0",
+  "description": "Web Application for Vishudda Momocha Restaurant",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css": "npx tailwindcss -i ./src/input.css -o ./public/assets/css/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xyzone/vm-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0xyzone/vm-app/issues"
+  },
+  "homepage": "https://github.com/0xyzone/vm-app#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
